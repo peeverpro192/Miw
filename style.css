@@ -1,13 +1,15 @@
+
 :root{
-    --primary: #a4ffdc;
+    --primary: #ec9cd2;
     --bg-color: #FBBAB7;
     --bg-envelope-color: #f5edd1;
     --envelope-tab: #ecdeb8;
     --envelope-cover: #e6cfa7;
     --shadow-color: rgba(0, 0, 0, 0.2);
-    --txt-color: #444;
+    --txt-color: #ffffff;
     --heart-color: rgb(211, 0, 0);
   }
+  
   body{
     margin: 0;
     padding: 0;
@@ -69,10 +71,12 @@
   .envelope > .letter > .text {
     font-family: "Noto Sans Thai", sans-serif;
     color: var(--txt-color);
+    font-weight: 200;
     text-align: center;
     font-size: 9px;
   }
   .click {
+    font-family: "Noto Sans Thai", sans-serif;
     position: absolute;
     top: 85%;
     left: 75%;
